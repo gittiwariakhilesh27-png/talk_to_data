@@ -1,7 +1,7 @@
 services:
   - type: web
     name: talk_to_your_data
-    env: python
+    env: Python 3.11.9
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run Chat_text_2_sql.py --server.port $PORT --server.headless true
     
