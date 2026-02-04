@@ -4,5 +4,5 @@ services:
     env: Python
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run Chat_text_2_sql.py --server.port $PORT --server.headless true
-    pythonVersion: 3.11.9
+    Python_Version: 3.11.9
     
